@@ -2,13 +2,14 @@ package week03;
 // 만들려고 하는 설계도 선언(클래스 선언)
 // 객체가 가지고 있어야 할 속성(필드)를 정의
 // 객체를 생성하는 형식을 정의(생성자)
+//    -constructor
 // 객체가 가지고 있어야할 행위(메서드) 정의
 public class Car {
   //필드영역
   //고유 데이터 부분
   String company;
-  String color;
   String model = "Gv80";
+  String color;
   double price;
   //상태 데이터 부분
   double speed;
@@ -23,8 +24,8 @@ public class Car {
   public Car() {
     System.out.println("객체가 생성됩니다");
   }
-  // 메서드 영역
 
+  // 메서드 영역
   double gasPedal(double kmh, char type) {
     changeGear(type); //가속도 페달을 밟으면 자동으로 기어변함
     speed = kmh;
