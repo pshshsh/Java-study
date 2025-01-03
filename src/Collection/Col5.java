@@ -8,6 +8,8 @@ public class Col5 {
     // Set(집합 : 순서 없고 중복 업음
     // 순서가 보장하지 않는 대신 중복을 허용하지 않도록 한느 프로그램에서 사용할 수 있는 자료구조
     // 생성자가 존재하는 HashSet을 이용해서 set 구현해 볼수있다
+    // set은 생성자가 없는 껍데기라서 바로 생성 x
+    // 생성자가 존재하는 HashSet을 이용해서 -> Set을 구현해 볼 수있다
     Set<Integer> intSet = new HashSet<>();
     intSet.add(1);
     intSet.add(12);

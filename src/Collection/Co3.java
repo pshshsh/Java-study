@@ -13,8 +13,8 @@ public class Co3 {
     intStack.push(15);
     intStack.push(1);
     // 다 지워질 때 까지 출력
-    while (!intStack.isEmpty()) {
-      System.out.println(intStack.pop());
+    while (!intStack.isEmpty()) { //값이 있을때 돌아간다
+      System.out.println(intStack.pop()); // 맨 상단에 있는거 빼준다 프린트가되면서 스택에선 빠진다
     }
     // 다시 추가
     intStack.push(10);

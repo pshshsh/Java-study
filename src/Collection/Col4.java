@@ -9,7 +9,7 @@ public class Col4 {
     // add, peek, poll
     // Queue : 생성자가 없는 인터페이스
 
-    Queue<Integer> intQueue = new LinkedList<>();
+    Queue<Integer> intQueue = new LinkedList<>(); // 생성자가 없어서
     intQueue.add(1);
     intQueue.add(5);
     intQueue.add(9);

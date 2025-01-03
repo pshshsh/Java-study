@@ -14,10 +14,11 @@ public class Col6 {
     intMap.put("two", 2);
     intMap.put("three", 3);
     intMap.put("three", 4);
-
-    for (String key : intMap.keySet()) {
+      // key 값 전체 출력
+      for (String key : intMap.keySet()) {
       System.out.println(key);
     }
+      // value 값 전체 출력
     for(Integer value: intMap.values()){
       System.out.println(value);
     }
